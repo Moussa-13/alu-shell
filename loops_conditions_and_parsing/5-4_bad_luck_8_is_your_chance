@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#Change the 4th, 8th loop iterations
+
+((n=1))
+while [ $n -le 10 ]; do
+	echo "Best School"
+
+if [ $n == 4 ]; then
+	echo "bad luck"
+
+elif [ $n == 8 ]; then
+	echo "good luck"
+
+else
+	echo "Best School"
+fi
+	((n++))
+done
+
+	
