@@ -1,4 +1,4 @@
-#!/user/bin/env bash
+#!/usr/bin/env bash
 #Bash script that displays Best School 10 times Until loop
 ((n=1))
 until [ $n -le 10]; do
